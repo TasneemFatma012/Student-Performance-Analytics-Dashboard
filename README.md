@@ -1,10 +1,8 @@
 # 📊 Student Performance Analytics Dashboard
 
-A Python-based **Student Performance Analytics Dashboard** built using **NumPy and Matplotlib**.
+A Python-based **Student Performance Analytics Dashboard** created using **Jupyter Notebook, NumPy, and Matplotlib**.
 
-This project analyzes student academic performance through different data visualizations such as subject-wise marks, student rankings, study hours, average marks, pass/fail analysis, and performance heatmaps.
-
----
+This project analyzes student academic performance through different data visualizations such as subject-wise performance, student rankings, study hours, average marks, pass/fail analysis, and performance heatmaps.
 
 ## 📌 Project Overview
 
@@ -16,13 +14,9 @@ The dashboard analyzes the performance of **8 students** across three subjects:
 
 It also analyzes the relationship between **study hours and average marks** and identifies the **top-performing students**.
 
----
-
 ## 📊 Dashboard Preview
 
-![Student Performance Dashboard](screenshots/dashboard.png)
-
----
+![Student Performance Dashboard](dashboard.png)
 
 ## ✨ Features
 
@@ -36,154 +30,116 @@ It also analyzes the relationship between **study hours and average marks** and 
 * 🥇 Top 3 Students
 * 🔥 Student Performance Heatmap
 
----
-
 ## 📈 Visualizations
 
 ### 1. Subject Performance
 
-A grouped bar chart comparing each student's marks in:
-
-* Python
-* DSA
-* DBMS
+Compares Python, DSA, and DBMS marks for each student.
 
 ### 2. Study Hours vs Performance
 
-A scatter plot showing the relationship between students' study hours and their average marks.
-
-A trend line is also used to understand the overall relationship.
+Shows the relationship between students' study hours and their average marks.
 
 ### 3. Student Ranking
 
-Students are ranked according to their average marks, from highest to lowest.
+Ranks students according to their average marks from highest to lowest.
 
 ### 4. Average Marks Distribution
 
-A histogram is used to visualize the distribution of students' average marks.
+A histogram showing the distribution of students' average marks.
 
 ### 5. Subject Marks Boxplot
 
-A boxplot is used to compare the distribution of marks in Python, DSA, and DBMS.
+Compares the distribution of marks across Python, DSA, and DBMS.
 
 ### 6. Subject Average Comparison
 
-A bar chart compares the overall average marks of Python, DSA, and DBMS.
+Compares the overall average marks of Python, DSA, and DBMS.
 
 ### 7. Pass/Fail Analysis
 
-A pie chart shows the proportion of students who passed and failed based on the defined passing marks.
+Shows the proportion of students who passed and failed based on the defined passing marks.
 
 ### 8. Top 3 Students
 
-A bar chart displays the three highest-performing students based on their average marks.
+Displays the three highest-performing students based on their average marks.
 
-### 9. Student Performance Heatmap
+### 9. Performance Heatmap
 
-A heatmap provides a visual comparison of marks obtained by students across Python, DSA, and DBMS.
-
----
+Provides a visual comparison of student marks across Python, DSA, and DBMS.
 
 ## 🛠️ Technologies Used
 
-* **Python**
-* **NumPy**
-* **Matplotlib**
+* Python
+* NumPy
+* Matplotlib
+* Jupyter Notebook
 
----
+## 📂 Project Files
 
-## 📂 Project Structure
+### `Student_dashboard.ipynb`
 
-```text
-student-performance-dashboard/
-│
-├── student_dashboard.py
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-└── screenshots/
-    └── dashboard.png
-```
+Contains the complete Python code, dataset, calculations, and visualizations used to create the dashboard.
 
----
+### `dashboard.png`
 
-## ⚙️ Installation
+A preview image of the final Student Performance Analytics Dashboard.
+
+## ▶️ How to Run
 
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/TasneemFatma012/Student-Performance-Analytics-Dashboard.git
 ```
 
-### 2. Navigate to the Project Folder
+### 2. Navigate to the Project
 
 ```bash
-cd student-performance-dashboard
+cd Student-Performance-Analytics-Dashboard
 ```
 
-### 3. Install Dependencies
+### 3. Install Required Libraries
 
 ```bash
-pip install -r requirements.txt
+pip install numpy matplotlib jupyter
 ```
 
----
-
-## ▶️ Run the Project
-
-Run the following command:
+### 4. Open the Notebook
 
 ```bash
-python student_dashboard.py
+jupyter notebook Student_dashboard.ipynb
 ```
 
-The dashboard will be generated using Matplotlib.
+You can also open the notebook using **JupyterLab**.
 
----
+### 5. Run the Cells
 
-## 📦 Requirements
-
-The project requires:
-
-```text
-matplotlib
-numpy
-```
-
-These dependencies are also available in `requirements.txt`.
-
----
+Run all the cells in the notebook to generate the Student Performance Analytics Dashboard.
 
 ## 🎯 Learning Objectives
 
-This project helped me practice:
+Through this project, I practiced:
 
 * Python data visualization
 * NumPy operations
-* Matplotlib charts
+* Matplotlib
 * Data sorting and ranking
-* Average and statistical calculations
-* Working with multiple datasets
-* Data analysis
+* Average calculations
+* Statistical visualization
+* Multiple chart types
 * Dashboard design
-* Presenting data through visualizations
-
----
+* Data analysis
 
 ## 🚀 Future Improvements
-
-Some planned improvements include:
 
 * Add CSV/Excel data input
 * Add interactive charts
 * Add student filtering
 * Add more subjects
 * Add automated performance reports
-* Add student-wise detailed reports
-* Convert the dashboard into a web application using Streamlit
-
----
+* Add student-wise detailed analysis
+* Convert the dashboard into a web-based application
 
 ## 👩‍💻 Author
 
@@ -191,10 +147,6 @@ Some planned improvements include:
 
 MCA Student | Python | Data Visualization | Web Development
 
----
-
 ## ⭐ Conclusion
 
-This project demonstrates how **Python, NumPy, and Matplotlib** can be used to transform student academic data into meaningful visual insights.
-
-It is a practical data visualization project focused on understanding and presenting student performance effectively.
+This project demonstrates how **Python, NumPy, and Matplotlib** can be used to analyze student academic data and present meaningful insights through data visualization.
